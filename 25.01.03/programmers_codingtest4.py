@@ -6,9 +6,8 @@ def cal(hp):
     a_s = 3
     a_w = 1
     rest_hp = hp
-    print(rest_hp)
+    # print(rest_hp)
 
-    flag = True
     while rest_hp != 0:
         if rest_hp >= a_g:
             count += 1
