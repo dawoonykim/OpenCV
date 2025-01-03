@@ -1,4 +1,4 @@
-# 프로그래머스 - 가위 바위 보
+# 프로그래머스 - 모스부호(1)
 
 def morse(letter):
     l_list = letter.split()
