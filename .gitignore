@@ -2,7 +2,7 @@
 my_cv/
 
 # images 디렉토리와 그 내부 포함
-!/images/*.png
+images/**
 
 # 모든 png 파일 제외
 *.png
