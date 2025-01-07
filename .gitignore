@@ -1,0 +1,12 @@
+# my_cv 디렉토리와 그 내부 모두 무시
+my_cv/
+
+# OpenCV 디렉토리 내 모든 PNG 파일 무시
+OpenCV/*.png
+
+# images 디렉토리와 그 내부 파일 포함
+!OpenCV/images/
+!OpenCV/images/**
+
+# 이미 추가된 PNG 파일 무시 강제 적용 (필요한 경우)
+*.png
